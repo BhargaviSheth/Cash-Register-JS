@@ -13,8 +13,8 @@ const table = document.querySelector("table");
 const amountDiv = document.querySelector("div.hidden");
 const amount = document.querySelector(".amount");
 
-const notesArray = [2000, 500, 100, 20, 10, 5, 1];
-let countArray = [0, 0, 0, 0, 0, 0, 0];
+const notesArray = [2000, 500, 100, 50, 20, 10, 5, 1];
+let countArray = [0, 0, 0, 0, 0,0, 0, 0];
 
 nextBtn.addEventListener("click", (e) => {
   e.preventDefault();
